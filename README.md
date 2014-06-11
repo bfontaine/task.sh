@@ -11,9 +11,19 @@ TODO
 
 ## Example
 
+    . task.sh
     task touch foo
     task mkdir bar
     task mv foo bar/
     task sleep 1
     task touch bar # will fail
     task true
+
+Result:
+
+    [x] touch foo
+    [F] mkdir bar
+    [x] mv foo bar/
+    [x] sleep 1
+    [x] touch bar
+    [x] true
