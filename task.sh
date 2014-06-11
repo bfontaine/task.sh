@@ -3,6 +3,11 @@
 # Task.sh
 # -------
 #
+# Author: Baptiste Fontaine
+# Version: 0.0.1
+# License: MIT
+# URL: https://github.com/bfontaine/task.sh
+
 
 task() {
     local cmd="$*"
