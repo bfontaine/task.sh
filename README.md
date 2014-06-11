@@ -28,7 +28,7 @@ using special Bash characters, like redirections and pipes:
     task 'echo bar > foo'
 
 Right now `task` doesn’t support command output, so you’ll need to redirect any
-output (stdout _and_ stderr) somewhere to not mess up with `task`’s own output.
+output (stdout _and_ stderr) somewhere to not mess with `task`’s own output.
 This should be improved in the future.
 
 
