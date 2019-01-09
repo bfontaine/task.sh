@@ -18,7 +18,7 @@ Source `task.sh` in Bash:
 
     . task.sh
 
-Then prefix each command with `task`. Be carefull to use quotes when you’re
+Then prefix each command with `task`. Be careful to use quotes when you’re
 using special Bash characters, like redirections and pipes:
 
     # wrong:
